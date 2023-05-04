@@ -7,9 +7,10 @@ body {
 #school-logo {
     display: block;
     width: 80%; /* Set the desired width of the logo */
-    max-width: 650px;
+    max-width: 150px;
     height: auto; /* Maintain the aspect ratio of the logo */
-    margin: auto;
+    margin: 20px 0;
+    
 }
 
 .form-group {
