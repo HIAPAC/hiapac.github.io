@@ -7,7 +7,7 @@ body {
 #school-logo {
     display: block;
     width: 80%; /* Set the desired width of the logo */
-    max-width: 150px;
+    max-width: 250px;
     height: auto; /* Maintain the aspect ratio of the logo */
     margin: 20px 0;
     
