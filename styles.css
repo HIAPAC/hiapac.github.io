@@ -4,6 +4,15 @@ body {
     margin: 0 auto;
 }
 
+#school-logo {
+    display: block;
+    width: 650px; /* Set the desired width of the logo */
+    height: auto; /* Maintain the aspect ratio of the logo */
+    margin: 0 auto; /* Center the logo */
+    margin-top: 20px; /* Add some space above the logo */
+    margin-bottom: 40px; /* Add some space below the logo */
+}
+
 .form-group {
     margin-bottom: 1em;
 }
