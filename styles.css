@@ -1,16 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 800px;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
 #school-logo {
     display: block;
-    width: 650px; /* Set the desired width of the logo */
+    width: 80%; /* Set the desired width of the logo */
+    max-width: 650px;
     height: auto; /* Maintain the aspect ratio of the logo */
-    margin: 0 auto; /* Center the logo */
-    margin-top: 20px; /* Add some space above the logo */
-    margin-bottom: 40px; /* Add some space below the logo */
+    margin: 20px auto; /* Add some space above the logo and center it */
 }
 
 .form-group {
@@ -63,4 +62,12 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #45a049;
+}
+
+/* Responsive styles for larger screens */
+@media (min-width: 768px) {
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+    }
 }
