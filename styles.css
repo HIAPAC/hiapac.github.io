@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 #school-logo {
@@ -9,7 +9,7 @@ body {
     width: 80%; /* Set the desired width of the logo */
     max-width: 650px;
     height: auto; /* Maintain the aspect ratio of the logo */
-    margin: 20px auto; /* Add some space above the logo and center it */
+    margin: auto;
 }
 
 .form-group {
