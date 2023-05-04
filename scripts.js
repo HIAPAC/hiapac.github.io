@@ -237,8 +237,6 @@ function getModuleCost(module, residency, age, financialSector) {
     });
   }
   
-  
-  
   generateTable();
   updateTable();
   
