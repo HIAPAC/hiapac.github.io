@@ -208,7 +208,7 @@ function getModuleCost(module, residency, age, financialSector) {
         const headerRow = document.createElement("tr");
         const header = document.createElement("th");
         header.colSpan = 3;
-        header.innerText = "Elective Modules";
+        header.innerText = "Elective Modules (Select 3)";
         headerRow.appendChild(header);
         moduleList.appendChild(headerRow);
         electiveHeaderAdded = true;
