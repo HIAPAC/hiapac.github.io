@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+th, td {
+    border: 2px solid #000000;
+    padding: 0.5em;
+}
+
+th {
+    text-align: center;
+    background-color: #ff7200;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.total-course-fees {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000000;
+    border: 4px solid #000000;
+    padding: 10px;
+    display: inline-block;
+    background-color: #ff7200;
+    margin-top: 1em;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}

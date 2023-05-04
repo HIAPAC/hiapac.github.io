@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Course Fee Calculator</title>
+</head>
+<body>
+    <h2>Master's in Digital Management: Programme Fee Calculator</h2>
+    <form id="fee-calculator">
+        <div class="form-group">
+            <label for="residency">I am a:</label>
+            <select id="residency">
+                <option value="citizen">Singapore Citizen</option>
+                <option value="permanent">Singapore Permanent Resident</option>
+                <option value="foreigner">Foreigner</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="age">My age is:</label>
+            <select id="age">
+                <option value="below40">Below 40</option>
+                <option value="40andabove">40 and above</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="financial-sector">I work in the financial sector:</label>
+            <input type="checkbox" id="financial-sector">
+        </div>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Module</th>
+                <th>Cost</th>
+                <th>Select</th>
+            </tr>
+        </thead>
+        <tbody id="module-list">
+        </tbody>
+    </table>
+    <p class="total-course-fees">Total Course Fees: $<span id="total-fee"></span></p>
+    <script src="scripts.js"></script>
+</body>
+</html>
